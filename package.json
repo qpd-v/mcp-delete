@@ -1,0 +1,45 @@
+{
+  "name": "@qpd-v/mcp-delete",
+  "version": "0.1.0",
+  "description": "A Model Context Protocol (MCP) server that provides file deletion capabilities",
+  "type": "module",
+  "bin": {
+    "mcp-delete": "./build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "file-deletion",
+    "claude",
+    "ai-tools"
+  ],
+  "author": "qpd-v",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qpd-v/mcp-delete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/qpd-v/mcp-delete/issues"
+  },
+  "homepage": "https://github.com/qpd-v/mcp-delete#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
