@@ -2,6 +2,8 @@
 
 A Model Context Protocol (MCP) server that provides file deletion capabilities. This server allows AI assistants to safely delete files when needed, with support for both relative and absolute paths.
 
+<a href="https://glama.ai/mcp/servers/dpxui4mdbx"><img width="380" height="200" src="https://glama.ai/mcp/servers/dpxui4mdbx/badge" alt="MCP-Delete MCP server" /></a>
+
 ## Features
 
 - Delete files using relative or absolute paths
