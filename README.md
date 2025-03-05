@@ -1,4 +1,5 @@
 # @qpd-v/mcp-delete
+[![smithery badge](https://smithery.ai/badge/@qpd-v/mcp-delete)](https://smithery.ai/server/@qpd-v/mcp-delete)
 
 A Model Context Protocol (MCP) server that provides file deletion capabilities. This server allows AI assistants to safely delete files when needed, with support for both relative and absolute paths.
 
@@ -20,6 +21,15 @@ A Model Context Protocol (MCP) server that provides file deletion capabilities. 
 
 ## Installation
 
+### Installing via Smithery
+
+To install File Deletion for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@qpd-v/mcp-delete):
+
+```bash
+npx -y @smithery/cli install @qpd-v/mcp-delete --client claude
+```
+
+### Manual Installation
 ```bash
 npx @qpd-v/mcp-delete
 ```
@@ -60,6 +70,7 @@ MacOS:
     }
   }
 }
+}
 ```
 
 ### VSCode Extension
@@ -89,6 +100,7 @@ MacOS:
       "args": ["@qpd-v/mcp-delete"]
     }
   }
+}
 }
 ```
 
